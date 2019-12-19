@@ -1,18 +1,20 @@
 
 import matplotlib.pyplot as plt
-plt.plot([0,1,2,3,4])
-plt.show()
+
 run = True
 t = []
 while run:
-  ins = input("exit to exit")
+  ins = input("exit to exit ")
   if(ins == "exit"):
     run = False
   else:
-    t.append(ins)
+    t.append(int(ins))
 
 
 for s in t:
   print(s)
-  
+
+plt.plot(t)
+plt.show()
+
 input("any key to continue")
