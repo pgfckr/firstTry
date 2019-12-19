@@ -9,4 +9,8 @@ x = weed[0]
 print(x)
 
 for x in weed:
-    print(x)
+    print(x) 
+
+number = input
+weed[0] = "start"
+input("x")   
