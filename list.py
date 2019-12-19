@@ -10,5 +10,5 @@ while run:
 
 for s in t:
   print(s)
-
+  
 input("any key to continue")

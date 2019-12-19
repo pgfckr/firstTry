@@ -1,12 +1,12 @@
+import unittest
+
 weed = ["white widow", "orange bud", "bubble kush"]
-print(weed)
-weed1 = "white widow"
-weed2 = "orange bud"
-weed3 = "bubble kush"
+weed[0] = "start"
+number =int(input("what do you want"))
+print(weed[number])
+input("hi")
 
-x = weed[0]
+class TestStringMethods(unittest.TestCase):
 
-print(x)
-
-for x in weed:
-    print(x)
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FO')
