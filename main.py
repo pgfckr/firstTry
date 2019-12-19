@@ -1,2 +1,2 @@
 print ("Hello World.")
-input ("awaiting input")
+input ("press any key to continue")
