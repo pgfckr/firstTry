@@ -1,4 +1,5 @@
 run = True
+
 while run:
   x = input("number1: ")
   y = input("number2: ")
